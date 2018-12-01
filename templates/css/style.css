@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+a {
+    text-decoration: none;
+}
+input {
+    -web-kit-appearance:none;
+    -moz-appearance: none;
+}
+embed {
+    width: 1.2rem;
+    position: absolute;
+}
+.header {
+    font-size: 2.2rem;
+    font-weight: bold;
+    padding: 2rem;
+}
+.user{
+    font-size:1.2rem;
+    height:1rem;
+    padding-top:2rem;
+    text-align: center;
+}
+.btn {
+    width: 100%;
+}
+.btn button{
+    font-size:1.6rem;
+    display: block;
+    width: 210px;
+    margin: 2rem auto;
+    height: 5rem;
+    border: none;
+    border-radius:.4rem;
+    color: #FFFFFF;
+    background-color: #ED8B14;
+}
+.list{
+    margin: 5rem 2rem 0rem 2rem;
+}
+.list p {
+    color: #aaa;
+    font-size: 1.2rem;
+    text-align: left;
+    padding-bottom: .5rem;
+    border-bottom: .1rem solid #eee;
+}
+.record{
+    width: 100%;
+}
+.record a {
+    font-size: 1.4rem;
+    color: #ED8B14;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding:2rem;
+    border-bottom: .1rem solid #ddd;
+}
+.login-card {
+    margin: 0 2rem;
+}
+.login-card .form_title {
+    color: #aaa;
+}
+.login-card .input_control {
+    margin: .5rem 0 2rem 0;
+}
+.login-card .input_control input {
+    font-size:1.4rem;
+    height:4rem;
+    border: none;
+    width: 100%;
+    border-bottom: .1rem solid #eee;
+}
+.login-card .input_control embed {
+    height: 4rem;
+    right: 3rem;
+}
+.login, .charge-btn {
+    margin: 0 2rem;
+}
+.login button, .charge-btn button {
+    font-size: 1.4rem;
+    border-radius: .4rem;
+    height: 4rem;
+    background-color: #ED8B14;
+    color: white;
+    width: 100%;
+    border:none;
+}
+.searchbar {
+    padding: 2rem;
+    background-color: white;
+}
+.searchbar input{
+    height: 3rem;
+    border-radius: 24px;border-color: #ED8B14;
+    width: 90%;
+    padding-left: 3rem;
+}
+.searchbar embed {
+    width: 1.8rem;
+    left: 3rem;
+    height: 3rem;
+}
+.searchbar button{
+    position: absolute;
+    width: 4rem;
+    height: 3rem;
+    border: none;
+    color: #ED8B14;
+    background-color: #FFFFFF;
+    font-size: 1.4rem;
+}
+.person-card {
+    background: url(../images/info_bg.png) no-repeat;
+    background-size:contain|cover;
+    -webkit-background-size:contain|cover;
+    -moz-background-size:contain|cover;
+    height: auto;
+    padding: 3rem 2rem 0rem 2rem;
+}
+.person-card .phone {
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+.person-card .text p {
+    margin-bottom: .2rem;
+    font-size: 1.2rem;
+    opacity: .5;
+}
+.person-card img {
+    position: absolute;
+    right: 2rem;
+    width: 12rem;
+}
+.person-card .pocket{
+    background: #FFFFFF;
+    border-radius: .8rem;
+    margin-top: 2rem;
+    padding: 1rem 1.5rem;
+}
+.person-card .pocket p span {
+    font-size: 2rem;
+}
+.option-btn {
+    padding: 2rem 2rem 0rem 2rem;
+}
+.option-btn:after {
+    content:"";clear: both;display: block;
+}
+.option-btn a{
+    background: #ED8B14;
+    border-radius: .4rem;
+    color:#FFFFFF;
+    display: block;
+    text-align: center;
+    padding: 1rem 0rem;
+    width: 90%;
+}
+.option-btn-layout {
+    width:33.3%;
+    float: left;
+}
+table {
+    margin: 2rem 0;
+    width: 100%;
+    border-collapse:collapse;
+    background-color: white;
+}
+table caption {
+    text-align: center;
+    font-size: 1.4rem;
+    color: #aaa; 
+    font-weight: normal;
+    padding: 1rem;
+    background-color: white;
+    border-bottom:1px solid #eee;
+}
+table tr td {
+    border-bottom: 1px solid #eee;
+    height: 3rem;
+    padding: 1rem;
+}
+table tr .table-time {
+    color: #aaa;
+    font-size: 1.2rem;
+    width: 8rem;
+}
+.charge-user {
+    margin-top: 3rem;
+    text-align: center;
+}
+.charge-user p{
+    font-size: 1.4rem;
+    padding: .5rem 2rem 0 2rem;
+    color: #999;
+}
+.charge-user p span{
+    font-size: 1.4rem;
+}
+.charge-user p.charge-money {
+    color:#ED8B14;
+    font-size: 3.6rem;
+    text-align: center;
+}
+.alipay {
+    background-color: #f7f7f7;
+    padding: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+.alipay p{
+    vertical-align: middle;
+    height: 2rem;
+}
+.alipay p span{
+    font-size: 1.2rem;
+    color: #999;
+}
+.alipay p img {
+    width: 1.2rem;
+    margin: auto 0;
+}
+.confirm-btn{
+    text-align: center;
+}
+.confirm-btn button {
+    height: 4rem;
+    width: 16rem;
+    border-radius: .4rem;
+    color: #ED8B14;
+    border: none;
+    background: none;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+}
+
+/*!
+ * LABELAUTY jQuery Plugin Styles
+ *
+ * @file: jquery-labelauty.css
+ * @author: Francisco Neves (@fntneves)
+ * @site: www.francisconeves.com
+ * @license: MIT License
+ */
+.dowebok {
+    width: 100%;
+    margin:0 auto;
+    padding: 2rem;
+}
+ul { list-style-type: none;}
+li { margin-bottom: 10px;display: inline-block;width: 7.6rem;}
+/* Prevent text and blocks selection */
+input.labelauty + label ::selection { background-color: rgba(255, 255, 255, 0); }
+input.labelauty + label ::-moz-selection { background-color: rgba(255, 255, 255, 0); }
+
+/* Hide original checkboxes. They are ugly! */
+input.labelauty { display: none !important; }
+
+/*
+ * Let's style the input
+ * Feel free to work with it as you wish!
+ */
+input.labelauty + label
+{
+    display: table;
+    padding: 1rem;
+    text-align: center;
+    width: 5rem;
+    background-color: #ffffff;
+    color: #ED8B14;
+    border: 1px solid #ED8B14;
+    cursor: pointer;
+
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+
+
+    transition: background-color 0.25s;
+    -moz-transition: background-color 0.25s;
+    -webkit-transition: background-color 0.25s;
+    -o-transition: background-color 0.25s;
+
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+
+/* Stylish text inside label */
+
+input.labelauty + label > span.labelauty-unchecked,
+input.labelauty + label > span.labelauty-checked
+{
+    display: inline-block;
+    line-height: 16px;
+    vertical-align: bottom;
+    font-size: 1.6rem;
+}
+
+
+/* When not Checked */
+input.labelauty:not(:checked):not([disabled]) + label:hover
+{
+    background-color: #eaeaea;
+    color: #a7a7a7;
+}
+
+
+input.labelauty:not(:checked) + label > span.labelauty-checked
+{
+    display: none;
+}
+
+/* When Checked */
+input.labelauty:checked + label
+{
+    background-color: #ED8B14;
+    color: #ffffff;
+}
+
+input.labelauty:checked:not([disabled]) + label:hover
+{
+    background-color: #ED8B14;
+}
+input.labelauty:checked + label > span.labelauty-unchecked-image
+{
+    display: none;
+}
+
+input.labelauty:checked + label > span.labelauty-unchecked
+{
+    display: none;
+}
+
+input.labelauty:checked + label > span.labelauty-checked
+{
+    display: inline-block;
+}
+
+input.labelauty.no-label:checked + label > span.labelauty-checked
+{
+    display: block;
+}

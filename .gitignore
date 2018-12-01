@@ -1,0 +1,9 @@
+.DS_Store
+debug
+upload/*
+.idea/*
+*.iml
+output/*
+conf/*.json
+*.swp
+

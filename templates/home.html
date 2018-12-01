@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=320,maximum-scale=1.3,user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script type="text/javascript" src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/operator_cookie.js"></script>
+    <title>home</title>
+</head>
+<body>
+    <div class="user">
+        欢迎你：<span id="operator">138xxxxxxxx</span>
+    </div>
+    <div class="btn">
+        <button onclick="location='signin_user'">创建会员</button>
+    </div>
+    <div class="btn">
+        <button onclick="location='person'">查询会员</button>
+    </div>
+    <div class="list">
+        <p>记录查询</p>
+        <div class="record">
+	
+            <a href="">储值记录></a>
+            <a href="">消费记录></a>
+            <a href="">退款记录></a>
+        </div> 
+    </div>
+</body>
+<script type="text/javascript"> 
+    function ShowMessage() 
+    { 
+        $.ajax({
+               type: "POST",
+               url: "../operator/info",
+               success: function(data){
+                   $("#operator").text(data.data)
+                  }
+        });
+    } 
+    window.onload=ShowMessage(); 
+</script>
+</html>

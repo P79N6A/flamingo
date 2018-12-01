@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <meta name="viewport" content="width=320,maximum-scale=1.3,user-scalable=no">
+    <script type="text/javascript" src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/operator_cookie.js"></script>
+    <title>person</title>
+</head>
+<body style="background-color:#f2f2f2;">
+     <div class="searchbar">
+        <input type="search" id="customerPhone"><embed src="./icons/search.svg" /></input>
+        <button id="searchCustomerInfo">查询</button>
+    </div>
+    <div class="person-card">
+        <img src="./images/card.png"/>
+        <div class="phone" id="cellphone">*******</div>
+        <div class="text">
+            <p>姓名：<span id="customer_name">***</span></p>
+            <p>充值时间：<span id="open_date">***</span></p>
+            <p>有效期：永久有效</p>
+        </div>
+        <div class="pocket">
+            <p>余额&nbsp;<span id="rest_amount">***</span></p>
+        </div>
+    </div>
+    <div class="option-btn">
+        <div class="option-btn-layout">
+            <a href="#" onclick="javascript:alertMoney()">
+                <img src="./images/pay_btn.png">
+                <p>买单</p>
+            </a>
+        </div>
+        <div class="option-btn-layout">
+            <a href="#" onclick="javascript:redirect2Charge()">
+                <img src="./images/pay_btn.png">
+                <p>储值</p>
+            </a>
+        </div>
+        <div class="option-btn-layout">
+            <a href="#" onclick="javascript:alertMoney()">
+                <img src="./images/pay_btn.png">
+                <p>退款</p>
+            </a>
+        </div>
+    </div>
+    <table id="account_detail">
+        <tr>
+            <caption>资金明细</caption>
+        </tr>
+    </table>
+</body>
+
+<script type="text/javascript">
+    $(function(){
+        //按钮单击时执行
+        $("#searchCustomerInfo").click(function(){
+            $.ajax({
+               type: "POST",
+               url: "../operator/query_customer",
+               data:{"cell":$("#customerPhone").val()},
+               success: function(data){
+                   if (data.code == 0) {
+                    $(".accountItem").remove()
+                    $("#customer_name").text(data.data.customer_name)
+                    $("#open_date").text(data.data.open_date)
+                    $("#cellphone").text(data.data.cellphone)
+                    $("#rest_amount").text(data.data.rest_amount)
+                    var hval =''
+                    for(var i=0;i<data.data.account_detail.length;i++){
+                        var item =data.data.account_detail[i]
+                        hval = hval + '<tr class="accountItem"><td class="table-time">'+item.account_time+'</td><td>'+item.operator+'</td><td>'+item.type+'</td><td>'+item.amount+'</td></tr>'
+                    }
+                    $("#account_detail").append(hval)  
+                   }else if (data.code == 4301) {
+                       alert(data.msg)
+                   }     
+                  }
+            });
+            
+         });
+    });
+</script>
+<script type="text/javascript">
+
+    //储值成功/失败的alert提示
+    // if(i(false)){
+    //     alert("储值失败");
+    // }else{
+    //     alert("储值成功")
+    // }
+    function redirect2Charge() {
+        var cellphone = $("#cellphone").text()
+        if (cellphone.endsWith("*")) {
+            alert("请先查询出用户信息")
+        }else {
+            window.location.href="charge?cell=" + cellphone
+        }
+    }
+    
+    function alertMoney(){
+        var cellphone = $("#cellphone").text()
+        if (cellphone.endsWith("*")) {
+            alert("请先查询出用户信息")
+        }else {
+            //将输入的内容赋给变量name
+            var money = prompt("请输入本次买单金额:","");
+            console.log(money);
+            console.log(typeof(money));
+            if(isNumber(money)){
+                $.ajax({
+                        type: "POST",
+                        url: "../operator/operate_customer",
+                        data:{"cell":$("#cellphone").text(),
+                            "operate_type":"CONSUME",
+                            "amount":money,
+                        },
+                        success: function(data){
+                                if(data.data){
+                                    alert("成功买单，金额为"+money +"元");
+                                    document.getElementById("searchCustomerInfo").click();
+                                }else {
+                                    alert(data.msg);
+                                }        
+                        }
+                });
+            }else{
+                alert("请输入数字");
+            }
+        }
+    }
+    //校验输入内容是否是数字
+    function isNumber(s)
+    {
+        var regu = "^[0-9]+\.?[0-9]*$";
+    //    var regu = "^[0-9]*$";
+        var re = new RegExp(regu);
+        if (re.test(s)) 
+        {
+            return true;
+        } 
+        else 
+        {
+            return false;
+        }
+    }
+    </script>
+</html>

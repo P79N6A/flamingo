@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=320,maximum-scale=1.3,user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script type="text/javascript" src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/jquery-labelauty.js"></script>
+    <script src="js/user_cookie.js"></script>
+    <title>charge</title>
+</head>
+<body>
+    <ul class="dowebok">
+        <li><input type="radio" name="radio" data-labelauty="300元"></li>
+        <li><input type="radio" name="radio" data-labelauty="500元"></li>
+        <li><input type="radio" name="radio" data-labelauty="1000元"></li>
+        <li><input type="radio" name="radio" data-labelauty="2000元"></li>
+        <li><input type="radio" name="radio" data-labelauty="5000元"></li>
+    </ul>
+    <div class="charge-btn">
+        <button id="submitCharge_bak" >确认充值</button>
+    </div>
+    <button id="submitCharge" >确认充值</button>
+    <p hidden id="cellphone"></p>
+</body>
+<script>
+    $(function(){
+        $(':input').labelauty();
+    });
+</script>
+<script>
+    function getQueryVariable(variable){
+        var query = window.location.search.substring(1);
+        var vars = query.split("&");
+        for (var i=0;i<vars.length;i++) {
+                var pair = vars[i].split("=");
+                if(pair[0] == variable){return pair[1];}
+        }
+        return(false);
+    }
+    var obj = document.getElementById("cellphone");
+    obj.innerHTML= getQueryVariable("cell"); 
+</script>
+<script type="text/javascript">
+    $(function(){
+        //按钮单击时执行
+        $("#submitCharge").click(function(){
+              //Ajax调用处理
+              alert($("#cellphone").text())
+            $.ajax({
+               type: "POST",
+               url: "../operator/operate_customer",
+               
+               data:{
+                   "cell":$("#cellphone").text(),
+                   "operate_type":"RECHARGE",
+                   "amount":500,
+               },
+               success: function(data){
+                   if (data.code == 0) {
+                       window.location.href="home"
+                   }else {
+                       alert("充值失败~")
+                   }
+                }
+            });
+            
+         });
+    });
+</script>
+</html>

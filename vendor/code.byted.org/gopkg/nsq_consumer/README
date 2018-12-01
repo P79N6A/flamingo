@@ -1,0 +1,3 @@
+a wrapper nsq consumer client
+1. add metrics
+2. add channel args while connect to nsqlookupds

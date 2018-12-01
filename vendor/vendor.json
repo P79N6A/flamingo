@@ -1,0 +1,1462 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"path": "appengine/cloudsql",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "qYATKRLkVDtvZMrx8I8nRGwEpmQ=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/bagent/go-client",
+			"path": "code.byted.org/bagent/go-client",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "wN9qCHUQunP3CcuLC3/XLbptFY8=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/bagent/go-client/thrift_gen/agent",
+			"path": "code.byted.org/bagent/go-client/thrift_gen/agent",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "6Np/WSE+6oPrL8m4NpwtW7GUM9U=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/bagent/go-client/thrift_gen/base",
+			"path": "code.byted.org/bagent/go-client/thrift_gen/base",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "eEdpLrV2KVqd//StgVE2IXF9egQ=",
+			"path": "code.byted.org/caijing_backend/loan_common/config",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "AEHxNJkRJ5XOdlbMGhNRtjG3Uts=",
+			"path": "code.byted.org/caijing_backend/loan_common/loanconsts",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "aedbj/nhuXk4qN+ldecFJljw5xk=",
+			"path": "code.byted.org/caijing_backend/loan_common/loanmodel",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "7HWIF1GeBpa9rM8ECmCx5b+yj7o=",
+			"path": "code.byted.org/caijing_backend/loan_common/loanmodel/vo",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "RjaDEE0O+XHs7B8oxjxD/5umcKY=",
+			"path": "code.byted.org/caijing_backend/loan_common/loanrpc",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "U5LqAKmtEd51GjSXKBOSfkB9Qc8=",
+			"path": "code.byted.org/caijing_backend/loan_common/loanrpc/clients/caijing/dmp/userdis",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "wdJy0gng0F6XJR1pdyOSQJJ9gz8=",
+			"path": "code.byted.org/caijing_backend/loan_common/loanrpc/clients/data/abtest/versionmanager",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "9POY5wxpRGbZy6sK/D0BZ7wmtxQ=",
+			"path": "code.byted.org/caijing_backend/loan_common/loanrpc/clients/toutiao/caijing/footstone",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "MpVwoUIrkY7rADQUGmMcCMVL/4I=",
+			"path": "code.byted.org/caijing_backend/loan_common/loanrpc/clients/toutiao/caijing/touchstone",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "n4DzxbeGECGJMRSokS9SEiAP4Us=",
+			"path": "code.byted.org/caijing_backend/loan_common/loanrpc/clients/toutiao/passport/identity",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "+U0ore6BGRTMI2xok7SuknLEGPg=",
+			"path": "code.byted.org/caijing_backend/loan_common/loanrpc/clients/toutiao/user/info",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "zCl20ouDWxi9HsnarcRgNR6LuoA=",
+			"path": "code.byted.org/caijing_backend/loan_common/loanrpc/thrift_gen/abtest",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "bVJW9aa7ie8prUze+xNR0X7VdRc=",
+			"path": "code.byted.org/caijing_backend/loan_common/loanrpc/thrift_gen/base",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "SJeNQZNX59HS0MBK4XB+WAnsLSU=",
+			"path": "code.byted.org/caijing_backend/loan_common/loanrpc/thrift_gen/caijing/dmp/userdis",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "hfrF9VA8YsL4bpXVZdtiR/i9G1s=",
+			"path": "code.byted.org/caijing_backend/loan_common/loanrpc/thrift_gen/toutiao/caijing/footstone",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "jlS8fOvv7w2pQt0Oi2fI1kRr1O4=",
+			"path": "code.byted.org/caijing_backend/loan_common/loanrpc/thrift_gen/toutiao/caijing/touchstone",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "Sv4eWnl40l8r5w41Wie1HgoKhEQ=",
+			"path": "code.byted.org/caijing_backend/loan_common/loanrpc/thrift_gen/toutiao/passport/identity",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "nUEhi66TiMkAoPIviowuUgR97aA=",
+			"path": "code.byted.org/caijing_backend/loan_common/loanrpc/thrift_gen/user_info",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "+HMHt2K1CIMLnjHPZbe1qAw++A0=",
+			"path": "code.byted.org/caijing_backend/loan_common/loanservice",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "b2GCVdmo18CC0viWgYHjpfKYo7c=",
+			"path": "code.byted.org/caijing_backend/loan_common/loanutil",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "xaErj8kFtG0wC222VSoAkCmdujs=",
+			"path": "code.byted.org/caijing_backend/loan_common/zzsec",
+			"revision": "6465eb25ba6bde98589b80efcc19c307a5ffbcf9",
+			"revisionTime": "2017-10-16T13:06:55Z"
+		},
+		{
+			"checksumSHA1": "hD6f2ADsfI2UgpJtUmyyEKf6/so=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/cloudpush/common/auth",
+			"path": "code.byted.org/cloudpush/common/auth",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "QS9YOYqHQNIGacB1novRQbxQ0kU=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/cloudpush/push_client/auth_client",
+			"path": "code.byted.org/cloudpush/push_client/auth_client",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "FGE0O3hee/eri3MEntbJT8FvFgY=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/data/databus_client",
+			"path": "code.byted.org/data/databus_client",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "v8ehqLl9wjCbd5eF3GjZI0TlrUA=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/data/mario_collector",
+			"path": "code.byted.org/data/mario_collector",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "NQ4EcLPhWMAjVbnmJbOxRSss3xk=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/data/mario_collector/pb_event",
+			"path": "code.byted.org/data/mario_collector/pb_event",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "zRY/7DRghy3YHlc8xYu8eGCscts=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/data/mario_collector/pb_server_impression",
+			"path": "code.byted.org/data/mario_collector/pb_server_impression",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "l6ekCxJsEaE5O/yUT05os+AZWzA=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/gin/ginex",
+			"path": "code.byted.org/gin/ginex",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "H2YnuJ069CBM9bQw6zRCMuKWyKY=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/gin/ginex/accesslog",
+			"path": "code.byted.org/gin/ginex/accesslog",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "kNQve3gX3nv0ddOjqoPe56sl0zM=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/gin/ginex/apimetrics",
+			"path": "code.byted.org/gin/ginex/apimetrics",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "4UaLIkKYT5v39Uf/YF23kUcXLPs=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/gin/ginex/ctx",
+			"path": "code.byted.org/gin/ginex/ctx",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "facsuEYjbgsObgYmM1YmOHdwZF0=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/gin/ginex/internal",
+			"path": "code.byted.org/gin/ginex/internal",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "xgM+WWCDUZ5zp/UPXirWYhSqWfE=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/gin/ginex/internal/util",
+			"path": "code.byted.org/gin/ginex/internal/util",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "9iuwG+jrM2rvY4XIs7QjpNNiKzE=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/gin/ginex/throttle",
+			"path": "code.byted.org/gin/ginex/throttle",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "J6a8qotrrBRXJRxUJWXoP9z/YeI=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/golf/buffer_pool",
+			"path": "code.byted.org/golf/buffer_pool",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "scBZTQ+xXqGktBve41RRPejRBvA=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/golf/consul",
+			"path": "code.byted.org/golf/consul",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "ueYh2IbT5lwkZjbMGnxg4mScrto=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/golf/metrics",
+			"path": "code.byted.org/golf/metrics",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "z8VogDO6SeN6z6NjCAPGBLETcJo=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/golf/ssconf",
+			"path": "code.byted.org/golf/ssconf",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "QkjgReWI3KjZ3fPXVUuvVlu0A3k=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/gopkg/alarm",
+			"path": "code.byted.org/gopkg/alarm",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "LGOnpl64hHZPZrhthVQNPaZofQ0=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/gopkg/asyncache",
+			"path": "code.byted.org/gopkg/asyncache",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "Py1h5AzQm+rCUJVdQ+j1Mndc+pc=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/gopkg/circuitbreaker",
+			"path": "code.byted.org/gopkg/circuitbreaker",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "/HRpqFmhhaCTZYL4MRWKQOU173k=",
+			"path": "code.byted.org/gopkg/context",
+			"revision": "31fa962860a825f0eb08567e6d90105326144a97",
+			"revisionTime": "2016-01-12T07:11:56Z"
+		},
+		{
+			"checksumSHA1": "2vL37QAhrumIdPKsCkKPXAgoxLg=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/gopkg/dbutil/conf",
+			"path": "code.byted.org/gopkg/dbutil/conf",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "U1REsTQtq+tbvX6Tqz3ixW/B/M4=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/gopkg/dbutil/gormdb",
+			"path": "code.byted.org/gopkg/dbutil/gormdb",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "MI8Az53HzZjA6Etd1enQ3r3An4Y=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/gopkg/env",
+			"path": "code.byted.org/gopkg/env",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "DpMQZ5obVejWJ6uYODiET7s7ylY=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/gopkg/etcd_util",
+			"path": "code.byted.org/gopkg/etcd_util",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "FrP2UZBD71dnnoPhDiToWIEZuHM=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/gopkg/etcd_util/client",
+			"path": "code.byted.org/gopkg/etcd_util/client",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "xfUWI91AW4ESvZ4dtN+LjDZxFyo=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/gopkg/etcd_util/pkg/dns",
+			"path": "code.byted.org/gopkg/etcd_util/pkg/dns",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "+KDn9mmM+hlJzC8YuK7+xQco4QE=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/gopkg/etcd_util/pkg/pathutil",
+			"path": "code.byted.org/gopkg/etcd_util/pkg/pathutil",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "AXrMcSvOI68wu6xT7noKtuDEreY=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/gopkg/etcd_util/pkg/types",
+			"path": "code.byted.org/gopkg/etcd_util/pkg/types",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "jX2khBZ9kzQR45SIh0x011wjOmM=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/gopkg/gorm",
+			"path": "code.byted.org/gopkg/gorm",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "j7WGMXiuNqHm52eIlJZSRpjX0a0=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/gopkg/grass",
+			"path": "code.byted.org/gopkg/grass",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "LvXkD9fJqcir/USfuMcnW3jwHSw=",
+			"path": "code.byted.org/gopkg/logfmt",
+			"revision": "60a6ef6420d3427bc2d39f4607f3b58714b67693",
+			"revisionTime": "2017-03-21T08:34:35Z"
+		},
+		{
+			"checksumSHA1": "RdqvRt/yncCaIKAY8dXlzDwZQLM=",
+			"path": "code.byted.org/gopkg/logs",
+			"revision": "5b9205252812931749f25fc8a6e5a5ba064a9171",
+			"revisionTime": "2017-08-31T07:12:19Z"
+		},
+		{
+			"checksumSHA1": "N/F2XTqQC+/H4A6ZY90wio3DaYw=",
+			"path": "code.byted.org/gopkg/logs/clients/databus",
+			"revision": "5b9205252812931749f25fc8a6e5a5ba064a9171",
+			"revisionTime": "2017-08-31T07:12:19Z"
+		},
+		{
+			"checksumSHA1": "tJ/v4u2+9gtpB56xEi2i6F/AT/E=",
+			"path": "code.byted.org/gopkg/metrics",
+			"revision": "7a6ca54404ec73bb8a484b9899397b6503b51d78",
+			"revisionTime": "2017-08-09T13:55:45Z"
+		},
+		{
+			"checksumSHA1": "MtXuvbNcu/uI/pZlH6KCLmVulqg=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/gopkg/mysql-driver",
+			"path": "code.byted.org/gopkg/mysql-driver",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "pgQaCZvh5f544wmpR/5ZqfEphvo=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/gopkg/naming/msgtype",
+			"path": "code.byted.org/gopkg/naming/msgtype",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "KJf7E4htuDPsqbBC1UklYNsrwPc=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/gopkg/naming/namekeeper",
+			"path": "code.byted.org/gopkg/naming/namekeeper",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "/Zcah3mtFprWFUOCADwFWn4tC+I=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/gopkg/naming/namekeeper/nkhttp",
+			"path": "code.byted.org/gopkg/naming/namekeeper/nkhttp",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "ncbwdWH9YNvR81mxjKrS3Ta+Da0=",
+			"path": "code.byted.org/gopkg/net2",
+			"revision": "f71dfe1e73bce75e8ad1c2e4216c3aa821ea5680",
+			"revisionTime": "2017-09-18T04:55:25Z"
+		},
+		{
+			"checksumSHA1": "F8PKbwqr6OXRAg1dTYyimXE4PE8=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/gopkg/nsq",
+			"path": "code.byted.org/gopkg/nsq",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "KRnap6rZyAi5MMmWEy4d7+S//YY=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/gopkg/nsq_consumer",
+			"path": "code.byted.org/gopkg/nsq_consumer",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "IThfCNXejk3wN95VOKggBKMemCY=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/gopkg/pkg/compress/snappy",
+			"path": "code.byted.org/gopkg/pkg/compress/snappy",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "oHDnmd+7EJ15uiXY9zbSgJKoHNM=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/gopkg/pkg/net2",
+			"path": "code.byted.org/gopkg/pkg/net2",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "fOyfsjkFHx1t7Meinfn7CuD2N0g=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/gopkg/pkg/sync/singleflight",
+			"path": "code.byted.org/gopkg/pkg/sync/singleflight",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "eadv3d3S0KD0e/hrLjlaEDdZFwo=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/gopkg/stats",
+			"path": "code.byted.org/gopkg/stats",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "npI9AxG9AKtMp4FqNSg4u+FWf0E=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/gopkg/thrift",
+			"path": "code.byted.org/gopkg/thrift",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "zvWqMfdcyuO7nQNmL89Mv/o/mlY=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/gopkg/tokenbucket",
+			"path": "code.byted.org/gopkg/tokenbucket",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "DVlW2rnZlneYppM8NN9lDlqPvoI=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/gopkg/tos",
+			"path": "code.byted.org/gopkg/tos",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "sSkf/WMci569K5a7ZPpgkfr9Zwk=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/gopkg/ttlcache",
+			"path": "code.byted.org/gopkg/ttlcache",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "OPKx2eWeub2B7aE3uSQC07rfIc0=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/hystrix/hystrix-go/hystrix",
+			"path": "code.byted.org/hystrix/hystrix-go/hystrix",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "LMkX35Y4wkotkcxUTUqddGS3Wao=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/hystrix/hystrix-go/hystrix/metric_collector",
+			"path": "code.byted.org/hystrix/hystrix-go/hystrix/metric_collector",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "tSF/2enNlSLNDRTJUAcO0siBNs0=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/hystrix/hystrix-go/hystrix/rolling",
+			"path": "code.byted.org/hystrix/hystrix-go/hystrix/rolling",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "47U7+B9y2AZTkmc0c6Vyrvg2QBI=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/kite/endpoint",
+			"path": "code.byted.org/kite/endpoint",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "SFOEdf3knc+IhWwSBYB4iGLNjFY=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/kite/kitc",
+			"path": "code.byted.org/kite/kitc",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "EjfuXJYbsR0YLTXB5xsHGqPeK4U=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/kite/kite",
+			"path": "code.byted.org/kite/kite",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "6cU4xECs36ckg678Ursda+YFPBc=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/kite/kitenv",
+			"path": "code.byted.org/kite/kitenv",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "VJqi2ZlyIFovsqm9JnSU85v2f5c=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/kite/kiterrno",
+			"path": "code.byted.org/kite/kiterrno",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "u7Opanw0aWUB3AJSNffUOYF6x48=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/kite/kitutil",
+			"path": "code.byted.org/kite/kitutil",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "OlSE0RTyk4DYMDGls5z+Xd1fKl8=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/kite/kitware",
+			"path": "code.byted.org/kite/kitware",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "1jvpU0ux347QO22t/GizVEFpA18=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/kite/logid",
+			"path": "code.byted.org/kite/logid",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "gHQg0B2sP3PVcwT/5Smxul1kSLg=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/kv/goredis",
+			"path": "code.byted.org/kv/goredis",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "JxtHLxMCCHfj5Q13H/cFMwxZ9TI=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/kv/redis-v6",
+			"path": "code.byted.org/kv/redis-v6",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "oIizV8tyzUW4NE8cTexvNoIfvV8=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/kv/redis-v6/internal",
+			"path": "code.byted.org/kv/redis-v6/internal",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "umcljfB9wdK9HIQ3dJUxd/iyFuc=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/kv/redis-v6/internal/consistenthash",
+			"path": "code.byted.org/kv/redis-v6/internal/consistenthash",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "CiYyQQwdoX3i0cgGQtGIOdD4Wg8=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/kv/redis-v6/internal/hashtag",
+			"path": "code.byted.org/kv/redis-v6/internal/hashtag",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "VhTo6d1bAqcG+KUuhHgihNOOOs8=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/kv/redis-v6/internal/pool",
+			"path": "code.byted.org/kv/redis-v6/internal/pool",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "t5MBw8cQRLLtABnyMfF2DPlQ3hI=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/kv/redis-v6/internal/proto",
+			"path": "code.byted.org/kv/redis-v6/internal/proto",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "PituSRr0/lFagXl9c/LDqjMyJXM=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/passport/session_lib/goclient",
+			"path": "code.byted.org/passport/session_lib/goclient",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "vDEmJ4urpVoCZNPlfh7jL1UeCek=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/passport/session_lib/goclient/clients/toutiao/passport/session",
+			"path": "code.byted.org/passport/session_lib/goclient/clients/toutiao/passport/session",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "bgnwDQ44Hh95j921Kd24IS9Gp3k=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/passport/session_lib/goclient/thrift_gen/base",
+			"path": "code.byted.org/passport/session_lib/goclient/thrift_gen/base",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "lC4s1SqYc6H2cNDRQx5+h71jSRA=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/passport/session_lib/goclient/thrift_gen/session",
+			"path": "code.byted.org/passport/session_lib/goclient/thrift_gen/session",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "Z41gaeVHsVS4jso7i9Qlo/zVk3g=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/whale/ginentry",
+			"path": "code.byted.org/whale/ginentry",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "2QFSjJ8YGhpd9Yc07qddvLhzdpo=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/whale/ginentry/clients/webarch/whale/antickite",
+			"path": "code.byted.org/whale/ginentry/clients/webarch/whale/antickite",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "cs6j4jhZZPYL7FOv5LAh3g/tYkQ=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/whale/ginentry/thrift_gen/base",
+			"path": "code.byted.org/whale/ginentry/thrift_gen/base",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "uGqOVcyoE4ETbo+ctTlkSPnk11k=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/code.byted.org/whale/ginentry/thrift_gen/whale/anticrawl",
+			"path": "code.byted.org/whale/ginentry/thrift_gen/whale/anticrawl",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "LlvQPCCJxa/4kNQDPBM5fZrtAnU=",
+			"path": "github.com/PuerkitoBio/goquery",
+			"revision": "1a71cc719d0d5b9e4f14ae072bef08b576b0bab5",
+			"revisionTime": "2017-10-07T14:12:28Z"
+		},
+		{
+			"checksumSHA1": "YNBmuDrDpOJFUF9B7Y9hNT6MEfA=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/Shopify/sarama",
+			"path": "github.com/Shopify/sarama",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "2rWSos1D+xqNSGkvEMOG3pntod8=",
+			"path": "github.com/andybalholm/cascadia",
+			"revision": "349dd0209470eabd9514242c688c403c0926d266",
+			"revisionTime": "2016-12-24T14:14:13Z"
+		},
+		{
+			"checksumSHA1": "spyv5/YFBjYyZLZa1U2LBfDR8PM=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/beorn7/perks/quantile",
+			"path": "github.com/beorn7/perks/quantile",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "r02zdZvuS9mX2xfea6DwddCBTBk=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/bitly/go-nsq",
+			"path": "github.com/bitly/go-nsq",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "0EhLvZ6Og9HYqJtCc2Dzs1EgM30=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/bitly/go-simplejson",
+			"path": "github.com/bitly/go-simplejson",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "ifqW/LRKbFkyN+VryAzXUHlny40=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/cenk/backoff",
+			"path": "github.com/cenk/backoff",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "7BC2/27NId9xaPDB5w3nWN2mn9A=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/coreos/etcd/auth/authpb",
+			"path": "github.com/coreos/etcd/auth/authpb",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "SaI/J/Gw5g6ZuEAvrUbvlBCBv9c=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/coreos/etcd/clientv3",
+			"path": "github.com/coreos/etcd/clientv3",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "XPsnuwpzJKHyEkH3ezq+U8nuCOA=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/coreos/etcd/clientv3/concurrency",
+			"path": "github.com/coreos/etcd/clientv3/concurrency",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "IhfdapvN/pqvnHV81gLbiDbP9Gg=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/coreos/etcd/etcdserver/api/v3rpc/rpctypes",
+			"path": "github.com/coreos/etcd/etcdserver/api/v3rpc/rpctypes",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "qWjYhRlh1K92W0PdFkA2ONyK4ys=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/coreos/etcd/etcdserver/etcdserverpb",
+			"path": "github.com/coreos/etcd/etcdserver/etcdserverpb",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "JAkX9DfIBrSe0vUa07xl5cikxVQ=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/coreos/etcd/mvcc/mvccpb",
+			"path": "github.com/coreos/etcd/mvcc/mvccpb",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "rMyIh9PsSvPs6Yd+YgKITQzQJx8=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/coreos/etcd/pkg/tlsutil",
+			"path": "github.com/coreos/etcd/pkg/tlsutil",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "mrz/kicZiUaHxkyfvC/DyQcr8Do=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/davecgh/go-spew/spew",
+			"path": "github.com/davecgh/go-spew/spew",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "y2Kh4iPlgCPXSGTCcFpzePYdzzg=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/eapache/go-resiliency/breaker",
+			"path": "github.com/eapache/go-resiliency/breaker",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "WHl96RVZlOOdF4Lb1OOadMpw8ls=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/eapache/go-xerial-snappy",
+			"path": "github.com/eapache/go-xerial-snappy",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "oCCs6kDanizatplM5e/hX76busE=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/eapache/queue",
+			"path": "github.com/eapache/queue",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "imR2wF388/0fBU6RRWx8RvTi8Q8=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/facebookgo/clock",
+			"path": "github.com/facebookgo/clock",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "x2Km0Qy3WgJJnV19Zv25VwTJcBM=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/fsnotify/fsnotify",
+			"path": "github.com/fsnotify/fsnotify",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "ImX1uv6O09ggFeBPUJJ2nu7MPSA=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/ghodss/yaml",
+			"path": "github.com/ghodss/yaml",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "QeKwBtN2df+j+4stw3bQJ6yO4EY=",
+			"path": "github.com/gin-contrib/sse",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "8LfVCnFrv5fzMbC4ruWPFIInmRI=",
+			"path": "github.com/gin-gonic/gin",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "J0jQGyKBUJy3zTVA7o06vIvL3aE=",
+			"path": "github.com/gin-gonic/gin/binding",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "YOwO5bkv3ei+GTVZqeEVB30kXDM=",
+			"path": "github.com/gin-gonic/gin/json",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "MwAJrZRDZoQ7CK2Q+T1sBbx6tC0=",
+			"path": "github.com/gin-gonic/gin/render",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "ZbU8qGzETzJZ2t30LmHxla5PLMY=",
+			"path": "github.com/go-sql-driver/mysql",
+			"revision": "bc14601d1bd56421dd60f561e6052c9ed77f9daf",
+			"revisionTime": "2018-01-25T05:47:45Z"
+		},
+		{
+			"checksumSHA1": "rm4fmaqJ1Cs9zV0pxCcazAvFiv8=",
+			"path": "github.com/golang/protobuf/proto",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "VfkiItDBFFkZluaAMAzJipDXNBY=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/golang/protobuf/ptypes",
+			"path": "github.com/golang/protobuf/ptypes",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "UB9scpDxeFjQe5tEthuR4zCLRu4=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/golang/protobuf/ptypes/any",
+			"path": "github.com/golang/protobuf/ptypes/any",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "hUjAj0dheFVDl84BAnSWj9qy2iY=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/golang/protobuf/ptypes/duration",
+			"path": "github.com/golang/protobuf/ptypes/duration",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "O2ItP5rmfrgxPufhjJXbFlXuyL8=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/golang/protobuf/ptypes/timestamp",
+			"path": "github.com/golang/protobuf/ptypes/timestamp",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "p/8vSviYF91gFflhrt5vkyksroo=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/golang/snappy",
+			"path": "github.com/golang/snappy",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "s7J8PdKJFnoBFg6MowXLTvix7ug=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/grpc-ecosystem/go-grpc-prometheus",
+			"path": "github.com/grpc-ecosystem/go-grpc-prometheus",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "Hp4nitbU8nyDAi+q3WwMqpOjFQw=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/hashicorp/hcl",
+			"path": "github.com/hashicorp/hcl",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "XQmjDva9JCGGkIecOgwtBEMCJhU=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/hashicorp/hcl/hcl/ast",
+			"path": "github.com/hashicorp/hcl/hcl/ast",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "/15SVLnCDzxICSatuYbfctrcpSM=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/hashicorp/hcl/hcl/parser",
+			"path": "github.com/hashicorp/hcl/hcl/parser",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "z6wdP4mRw4GVjShkNHDaOWkbxS0=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/hashicorp/hcl/hcl/scanner",
+			"path": "github.com/hashicorp/hcl/hcl/scanner",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "oS3SCN9Wd6D8/LG0Yx1fu84a7gI=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/hashicorp/hcl/hcl/strconv",
+			"path": "github.com/hashicorp/hcl/hcl/strconv",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "c6yprzj06ASwCo18TtbbNNBHljA=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/hashicorp/hcl/hcl/token",
+			"path": "github.com/hashicorp/hcl/hcl/token",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "EFc3PBaFtMZnEKgmq0EmVHJTxFs=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/hashicorp/hcl/json/parser",
+			"path": "github.com/hashicorp/hcl/json/parser",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "YdvFsNOMSWMLnY6fcliWQa0O5Fw=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/hashicorp/hcl/json/scanner",
+			"path": "github.com/hashicorp/hcl/json/scanner",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "fNlXQCQEnb+B3k5UDL/r15xtSJY=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/hashicorp/hcl/json/token",
+			"path": "github.com/hashicorp/hcl/json/token",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "rro98K08E4cpMkmaMe6C0bQheSg=",
+			"path": "github.com/jinzhu/gorm",
+			"revision": "48a20a6e9f3f4d26095df82c3337efec6db0a6fc",
+			"revisionTime": "2018-02-22T04:04:12Z"
+		},
+		{
+			"checksumSHA1": "eECxSkwh0WmhLwaxHfkvcLOWS08=",
+			"path": "github.com/jinzhu/gorm/dialects/mysql",
+			"revision": "48a20a6e9f3f4d26095df82c3337efec6db0a6fc",
+			"revisionTime": "2018-02-22T04:04:12Z"
+		},
+		{
+			"checksumSHA1": "VIp1lZm6joWhlNdwhady8u//qRw=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/jinzhu/inflection",
+			"path": "github.com/jinzhu/inflection",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "cYyphShsmqwZPhioe5B52uWim/g=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/jlaffaye/ftp",
+			"path": "github.com/jlaffaye/ftp",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "lEWiGyX9gzZLH/Flp5UbEdOysTk=",
+			"path": "github.com/json-iterator/go",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "0KIENyxWPSq17W94xV/WXK8b4DU=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/magiconair/properties",
+			"path": "github.com/magiconair/properties",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "U6lX43KDDlNOn+Z0Yyww+ZzHfFo=",
+			"path": "github.com/mattn/go-isatty",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "bKMZjd2wPw13VwoE7mBeSv5djFA=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/matttproud/golang_protobuf_extensions/pbutil",
+			"path": "github.com/matttproud/golang_protobuf_extensions/pbutil",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "EHjhpHipgm+XGccrRAms9AW3Ewk=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/mitchellh/mapstructure",
+			"path": "github.com/mitchellh/mapstructure",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "zZg0J0MqvnqXVYo644QDvnUinrc=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/pelletier/go-toml",
+			"path": "github.com/pelletier/go-toml",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "8U5pEHFpXd1/Klgp+C/a6TqWoh8=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/philhofer/fwd",
+			"path": "github.com/philhofer/fwd",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "FGg99nQ56Fo3radSCuU1AeEUJug=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/pierrec/lz4",
+			"path": "github.com/pierrec/lz4",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "zPWRjzsPeXCoqmidIcJtHbvrvRs=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/pierrec/xxHash/xxHash32",
+			"path": "github.com/pierrec/xxHash/xxHash32",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "85Uh7OExatRHdrx5KHX16kbDQjk=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/prometheus/client_golang/prometheus",
+			"path": "github.com/prometheus/client_golang/prometheus",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "DvwvOlPNAgRntBzt3b3OSRMS2N4=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/prometheus/client_model/go",
+			"path": "github.com/prometheus/client_model/go",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "LX7jfBUffb28as5ZUFbaHOy7a8Y=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/prometheus/common/expfmt",
+			"path": "github.com/prometheus/common/expfmt",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "GWlM3d2vPYyNATtTFgftS10/A9w=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/prometheus/common/internal/bitbucket.org/ww/goautoneg",
+			"path": "github.com/prometheus/common/internal/bitbucket.org/ww/goautoneg",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "Gs4+GCiIEmOmRABNtr7l6T6zc2Q=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/prometheus/common/model",
+			"path": "github.com/prometheus/common/model",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "ihxJIjxtbEYdQKwA0D0nRipj95I=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/prometheus/procfs",
+			"path": "github.com/prometheus/procfs",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "xCiFAAwVTrjsfZT1BIJQ3DgeNCY=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/prometheus/procfs/xfs",
+			"path": "github.com/prometheus/procfs/xfs",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "KAzbLjI9MzW2tjfcAsK75lVRp6I=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/rcrowley/go-metrics",
+			"path": "github.com/rcrowley/go-metrics",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "q6JII/ziSLMqwajFGHj6w8V+RbA=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/rubyist/circuitbreaker",
+			"path": "github.com/rubyist/circuitbreaker",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "hLJ4PW0yTON/V6kKjY9v0zfLnd0=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/spf13/afero",
+			"path": "github.com/spf13/afero",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "5KRbEQ28dDaQmKwAYTD0if/aEvg=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/spf13/afero/mem",
+			"path": "github.com/spf13/afero/mem",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "Sq0QP4JywTr7UM4hTK1cjCi7jec=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/spf13/cast",
+			"path": "github.com/spf13/cast",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "suLj1G8Vd//a/a3sUEKz/ROalz0=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/spf13/jwalterweatherman",
+			"path": "github.com/spf13/jwalterweatherman",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "Q52Y7t0lEtk/wcDn5q7tS7B+jqs=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/spf13/pflag",
+			"path": "github.com/spf13/pflag",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "XeB0yeQkOMI+CWrllrbTrg4iOEs=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/spf13/viper",
+			"path": "github.com/spf13/viper",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "JfcyRh0rxqwrYvFmsuqo1oU73i4=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/github.com/tinylib/msgp/msgp",
+			"path": "github.com/tinylib/msgp/msgp",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "UcaEAz202dK0Ph+YcejKow7S5rg=",
+			"path": "github.com/ugorji/go/codec",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "dr5+PfIRzXeN+l1VG+s0lea9qz8=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/golang.org/x/net/context",
+			"path": "golang.org/x/net/context",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "/PGQlVbw8jILX3tLQaYAg6bTAFI=",
+			"path": "golang.org/x/net/html",
+			"revision": "1087133bc4af3073e18add999345c6ae75918503",
+			"revisionTime": "2017-10-13T01:45:07Z"
+		},
+		{
+			"checksumSHA1": "uMRr2bnIJS+9Xm0FqMBYUTzaSGs=",
+			"path": "golang.org/x/net/html/atom",
+			"revision": "1087133bc4af3073e18add999345c6ae75918503",
+			"revisionTime": "2017-10-13T01:45:07Z"
+		},
+		{
+			"checksumSHA1": "cY4u3LCdJxKaS2GbftZjfrOSnNE=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/golang.org/x/net/http2",
+			"path": "golang.org/x/net/http2",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "ezWhc7n/FtqkLDQKeU2JbW+80tE=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/golang.org/x/net/http2/hpack",
+			"path": "golang.org/x/net/http2/hpack",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "1osdKBIU5mNqyQqiGmnutoTzdJA=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/golang.org/x/net/idna",
+			"path": "golang.org/x/net/idna",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "UxahDzW2v4mf/+aFxruuupaoIwo=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/golang.org/x/net/internal/timeseries",
+			"path": "golang.org/x/net/internal/timeseries",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "3xyuaSNmClqG4YWC7g0isQIbUTc=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/golang.org/x/net/lex/httplex",
+			"path": "golang.org/x/net/lex/httplex",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "u/r66lwYfgg682u5hZG7/E7+VCY=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/golang.org/x/net/trace",
+			"path": "golang.org/x/net/trace",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "0nArHo636YIKuL6ZxpERDdMeQoc=",
+			"path": "golang.org/x/sys/unix",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "tltivJ/uj/lqLk05IqGfCv2F/E8=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/golang.org/x/text/secure/bidirule",
+			"path": "golang.org/x/text/secure/bidirule",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "ziMb9+ANGRJSSIuxYdRbA+cDRBQ=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/golang.org/x/text/transform",
+			"path": "golang.org/x/text/transform",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "iB6/RoQIzBaZxVi+t7tzbkwZTlo=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/golang.org/x/text/unicode/bidi",
+			"path": "golang.org/x/text/unicode/bidi",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "km/8bLtOpIP7sua4MnEmiSDYTAE=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/golang.org/x/text/unicode/norm",
+			"path": "golang.org/x/text/unicode/norm",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "vGfePfr0+weQUeTM/71mu+LCFuE=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/golang.org/x/time/rate",
+			"path": "golang.org/x/time/rate",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "LiyXfqOzaeQ8vgYZH3t2hUEdVTw=",
+			"path": "google.golang.org/appengine/cloudsql",
+			"revision": "5bee14b453b4c71be47ec1781b0fa61c2ea182db",
+			"revisionTime": "2017-12-12T22:30:47Z"
+		},
+		{
+			"checksumSHA1": "S8O+d7a8oLBSQ71OHHe8RIZVPbE=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/google.golang.org/genproto/googleapis/rpc/status",
+			"path": "google.golang.org/genproto/googleapis/rpc/status",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "MHpFKeEtlvGwnr30q9kGtDuuoSI=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/google.golang.org/grpc",
+			"path": "google.golang.org/grpc",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "gQ3Ql5/1LlvPL9duGgdeMuE/P+8=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/google.golang.org/grpc/balancer",
+			"path": "google.golang.org/grpc/balancer",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "Dkjgw1HasWvqct0IuiZdjbD7O0c=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/google.golang.org/grpc/codes",
+			"path": "google.golang.org/grpc/codes",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "XH2WYcDNwVO47zYShREJjcYXm0Y=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/google.golang.org/grpc/connectivity",
+			"path": "google.golang.org/grpc/connectivity",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "5ylThBvJnIcyWhL17AC9+Sdbw2E=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/google.golang.org/grpc/credentials",
+			"path": "google.golang.org/grpc/credentials",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "WxP3QV0Y4fIx5NsT0dwBp6JsrJE=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/google.golang.org/grpc/grpclb/grpc_lb_v1/messages",
+			"path": "google.golang.org/grpc/grpclb/grpc_lb_v1/messages",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "ntHev01vgZgeIh5VFRmbLx/BSTo=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/google.golang.org/grpc/grpclog",
+			"path": "google.golang.org/grpc/grpclog",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "U9vDe05/tQrvFBojOQX8Xk12W9I=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/google.golang.org/grpc/internal",
+			"path": "google.golang.org/grpc/internal",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "hcuHgKp8W0wIzoCnNfKI8NUss5o=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/google.golang.org/grpc/keepalive",
+			"path": "google.golang.org/grpc/keepalive",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "KeUmTZV+2X46C49cKyjp+xM7fvw=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/google.golang.org/grpc/metadata",
+			"path": "google.golang.org/grpc/metadata",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "dgwdT20kXe4ZbXBOFbTwVQt8rmA=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/google.golang.org/grpc/naming",
+			"path": "google.golang.org/grpc/naming",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "n5EgDdBqFMa2KQFhtl+FF/4gIFo=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/google.golang.org/grpc/peer",
+			"path": "google.golang.org/grpc/peer",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "bJJaQUbZqEpTlnXTXgGwOZWijs4=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/google.golang.org/grpc/resolver",
+			"path": "google.golang.org/grpc/resolver",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "Nu7GYSsMYS5prWMPsRGkYuIfpL0=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/google.golang.org/grpc/stats",
+			"path": "google.golang.org/grpc/stats",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "3BleSmAOXRLbDYxFnNHc4QYRFxg=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/google.golang.org/grpc/status",
+			"path": "google.golang.org/grpc/status",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "qvArRhlrww5WvRmbyMF2mUfbJew=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/google.golang.org/grpc/tap",
+			"path": "google.golang.org/grpc/tap",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "LhE/o5OIMZ1YOfmWWUiaDpoQXgE=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/google.golang.org/grpc/transport",
+			"path": "google.golang.org/grpc/transport",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "39V1idWER42Lmcmg2Uy40wMzOlo=",
+			"path": "gopkg.in/go-playground/validator.v8",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "1D8GzeoFGUs5FZOoyC2DpQg8c5Y=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/gopkg.in/mgo.v2",
+			"path": "gopkg.in/mgo.v2",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "a68628cv8Cc7ML+3hmtZ/AhhmNQ=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/gopkg.in/mgo.v2/bson",
+			"path": "gopkg.in/mgo.v2/bson",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "8PDhPkU0sepu3Z1S6qp3CbXnPs0=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/gopkg.in/mgo.v2/internal/json",
+			"path": "gopkg.in/mgo.v2/internal/json",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "LEvMCnprte47qdAxWvQ/zRxVF1U=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/gopkg.in/mgo.v2/internal/sasl",
+			"path": "gopkg.in/mgo.v2/internal/sasl",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "JJZ3MTX3hHZ+VTXWhrGSk7MWqgY=",
+			"origin": "code.byted.org/caijing_backend/loan_common/vendor/gopkg.in/mgo.v2/internal/scram",
+			"path": "gopkg.in/mgo.v2/internal/scram",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		},
+		{
+			"checksumSHA1": "dJsLaltE9R6pnm5lJtC1Ne7UGoQ=",
+			"path": "gopkg.in/yaml.v2",
+			"revision": "c3bc37d167dd8468f715aeefe418a093c4497798",
+			"revisionTime": "2017-10-16T10:55:46Z"
+		}
+	],
+	"rootPath": "code.bean.com/flamingo"
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=320,maximum-scale=1.3,user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script type="text/javascript" src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/operator_cookie.js"></script>
+    <title>login</title>
+</head>
+<body>
+    <div class="header">注册</div>
+    <form action="" method="get" class="login-card">
+        <div class="form_title">手机号&nbsp*务必确保常用手机，用于以后接收验证码</div>
+        <div class="input_control">
+            
+            <input type="text" id="cellphone" placeholder="请输入顾客的手机号码"><embed src="./icons/close.svg" /></input>
+        </div>
+        <div class="form_title">姓名</div>
+        <div class="input_control">
+            <input type="text" id="username" placeholder="请输入顾客的姓名"><embed src="./icons/close.svg" /></input>
+        </div>
+    </form>
+    <div class="login">
+        <button id="addNewCustomer">注册</button>
+    </div>
+</body>
+<script type="text/javascript">
+    $(function(){
+        //按钮单击时执行
+        $("#addNewCustomer").click(function(){
+            $.ajax({
+               type: "POST",
+               url: "../operator/add_customer",
+               data:{"cell":$("#cellphone").val(),
+                     "name":$("#username").val()
+               },
+               success: function(data){
+                   if (data.code == 0) {
+                    alert("用户注册成功")
+                    window.location.href="home"
+                   }else {
+                       alert(data.msg)
+                   }
+                  }
+            });
+            
+         });
+    });
+</script>
+</html>

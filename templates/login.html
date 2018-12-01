@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=320,maximum-scale=1.3,user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <title>login</title>
+    <script type="text/javascript" src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>  
+</head>
+<body>
+    <div class="header">登录</div>
+    <form action="" method="" id="loginForm" class="login-card">
+        <div class="form_title">手机号</div>
+        <div class="input_control">
+            
+            <input type="text" name="cell" placeholder="请输入您的手机号码"><embed src="./icons/close.svg" /></input>
+        </div>
+        <div class="form_title">密码</div>
+        <div class="input_control">
+            <input type="text" name="pwd" placeholder="请输入您的密码"><embed src="./icons/close.svg" /></input>
+        </div>
+    </form>
+    <div class="login">
+        <button id="loginbtn">登录</button>
+    </div>
+</body>
+
+<script type="text/javascript">
+    $(function(){
+        //按钮单击时执行
+        $("#loginbtn").click(function(){
+              //Ajax调用处理
+            $.ajax({
+               type: "POST",
+               url: "../operator/login",
+               data:$("#loginForm").serialize(),
+               success: function(data){
+                   if (data.code == 0) {
+                       window.location.href="home"
+                   }else {
+                       alert("用户名密码不匹配，请重试~")
+                   }
+                }
+            });
+            
+         });
+    });
+</script>
+</html>
