@@ -6,16 +6,16 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <script type="text/javascript" src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/jquery-labelauty.js"></script>
-    <script src="js/user_cookie.js"></script>
+    <script src="js/operator_cookie.js"></script>
     <title>charge</title>
 </head>
 <body>
     <ul class="dowebok">
-        <li><input type="radio" name="radio" data-labelauty="300元"></li>
-        <li><input type="radio" name="radio" data-labelauty="500元"></li>
-        <li><input type="radio" name="radio" data-labelauty="1000元"></li>
-        <li><input type="radio" name="radio" data-labelauty="2000元"></li>
-        <li><input type="radio" name="radio" data-labelauty="5000元"></li>
+        <li><input type="radio" name="radio" data-labelauty="300元" value="300" checked="checked"></li>
+        <li><input type="radio" name="radio" data-labelauty="500元" value="500" ></li>
+        <li><input type="radio" name="radio" data-labelauty="1000元"  value="1000"></li>
+        <li><input type="radio" name="radio" data-labelauty="2000元" value="2000"></li>
+        <li><input type="radio" name="radio" data-labelauty="5000元" value="5000"></li>
     </ul>
     <div class="charge-btn">
         <button id="submitCharge_bak" >确认充值</button>
@@ -44,9 +44,8 @@
 <script type="text/javascript">
     $(function(){
         //按钮单击时执行
-        $("#submitCharge").click(function(){
+        $("#submitCharge_bak").click(function(){
               //Ajax调用处理
-              alert($("#cellphone").text())
             $.ajax({
                type: "POST",
                url: "../operator/operate_customer",
@@ -54,7 +53,7 @@
                data:{
                    "cell":$("#cellphone").text(),
                    "operate_type":"RECHARGE",
-                   "amount":500,
+                   "amount":$("input[type='radio']:checked").val(),
                },
                success: function(data){
                    if (data.code == 0) {
