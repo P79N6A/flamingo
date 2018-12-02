@@ -21,6 +21,8 @@ func (handler *TemplateHandler) Register(e *gin.Engine) {
 		c.HTML(http.StatusOK, "login.html", gin.H{})
 	})
 	group.GET("/person", func(c *gin.Context) {
+		cell := c.Query("cell")
+		c.Set("cellphone", cell)
 		c.HTML(http.StatusOK, "person.html", gin.H{})
 	})
 	group.GET("/signin_user", func(c *gin.Context) {

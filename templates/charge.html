@@ -20,7 +20,6 @@
     <div class="charge-btn">
         <button id="submitCharge_bak" >确认充值</button>
     </div>
-    <button id="submitCharge" >确认充值</button>
     <p hidden id="cellphone"></p>
 </body>
 <script>
@@ -57,7 +56,7 @@
                },
                success: function(data){
                    if (data.code == 0) {
-                       window.location.href="home"
+                       window.location.href="person?cell="+$("#cellphone").text()
                    }else {
                        alert("充值失败~")
                    }
