@@ -54,7 +54,7 @@ func (s *CustomerService) GetCustomerDetailInfo(cellphone string) (*view.Custome
 			AccountType:   accountType,
 			OperatorName:  account.Operator,
 		})
-		if account.AccountType == model.AccountTypeRecharge {
+		if account.AccountType == model.AccountTypeRecharge || account.AccountType == model.AcccountTypeRefund {
 			logs.Info("amount:%d", account.Amount)
 			restAmount = restAmount + account.Amount
 		} else {
