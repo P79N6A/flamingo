@@ -88,7 +88,11 @@ function SetRemainTime() {
                url: "../cu/login",
                data:$("#loginForm").serialize(),
                success: function(data){
-                   window.location.href="customer_home"
+                   if (data.code==0) {
+                    window.location.href="customer_home"
+                   }else {
+                    alert(data.msg)
+                   }
                   }
             });
             
