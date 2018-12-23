@@ -194,9 +194,9 @@ func (s *CustomerService) VerifyCheckCode(code, phone string) (bool, error) {
 	if err != nil {
 		return false, ErrorServiceInternalError
 	}
-	// if msg.SendTime.Add(3 * time.Minute).Before(time.Now()) {
-	// 	return false, nil
-	// }
+	if msg.SendTime.Add(3 * time.Minute).Before(time.Now()) {
+		return false, nil
+	}
 	return msg.Code == code, nil
 }
 
