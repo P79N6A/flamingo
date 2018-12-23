@@ -70,6 +70,9 @@ embed {
 .login-card .input_control {
     margin: .5rem 0 2rem 0;
 }
+.login-card .input_control_id {
+    margin: .5rem 0 2rem 0;
+}
 .login-card .input_control input {
     font-size:1.4rem;
     height:4rem;
@@ -80,6 +83,19 @@ embed {
 .login-card .input_control embed {
     height: 4rem;
     right: 3rem;
+}
+.login-card .input_control_id input {
+    font-size:1.4rem;
+    height:4rem;
+    border: none;
+    width: 80%;
+    border-bottom: .1rem solid #eee;
+}
+.login-card .input_control_id .id_code {
+    height: 4.1rem;
+    right: 3rem;
+    float: right;
+    width: 20%; 
 }
 .login, .charge-btn {
     margin: 0 2rem;

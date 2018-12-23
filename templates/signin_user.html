@@ -38,7 +38,7 @@
                success: function(data){
                    if (data.code == 0) {
                     alert("用户注册成功")
-                    window.location.href="home"
+                    window.location.href="person?cell="+$("#cellphone").val()
                    }else {
                        alert(data.msg)
                    }

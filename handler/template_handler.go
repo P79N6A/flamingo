@@ -42,6 +42,6 @@ func (handler *TemplateHandler) Register(e *gin.Engine) {
 		c.HTML(http.StatusOK, "customer_person.html", gin.H{})
 	})
 	group.GET("/customer_login", func(c *gin.Context) {
-		c.HTML(http.StatusOK, "login.html", gin.H{})
+		c.HTML(http.StatusOK, "login_user.html", gin.H{})
 	})
 }

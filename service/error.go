@@ -96,6 +96,7 @@ var (
 	ErrMissingData       = NewError(4102, "数据丢失")
 	ErrUserNotLogin      = NewError(4103, "用户未登录")
 	ErrIllegalDataAccess = NewError(4104, "非法数据访问")
+	ErrIllegalPhoneNo    = NewError(4105, "手机号输入有误")
 
 	// 密码相关 42xx 开头
 	ErrWrongPassword             = NewError(4200, "密码错误")

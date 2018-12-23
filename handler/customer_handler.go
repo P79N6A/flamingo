@@ -16,15 +16,35 @@ func NewCustomerHandler() *CustomersHandler {
 
 func (handler *CustomersHandler) Register(e *gin.Engine) {
 	group := e.Group("/cu")
-	group.GET("login", JSONWrapper(handler.Login))
+	group.POST("/check_code", JSONWrapper(handler.SendCheckCode))
+	group.POST("login", JSONWrapper(handler.Login))
 	group.POST("/cu_detail", CustomersInfoMiddleware(), JSONWrapper(handler.GetCustomerInfo))
+}
+
+func (handler *CustomersHandler) SendCheckCode(c *gin.Context) (interface{}, error) {
+	phone := c.PostForm("cell")
+	if phone == "" {
+		return nil, service.NewError(401, "缺少必要参数")
+	}
+	err := service.CustomerServiceInstance().SendCheckCode(phone)
+	if err != nil {
+		return nil, err
+	}
+	return "success", nil
 }
 
 func (handler *CustomersHandler) Login(c *gin.Context) (interface{}, error) {
 	// phone := c.PostForm("cell")
 	// pwd := c.PostForm("pwd")
-	phone := c.Query("cell")
-	service.CustomerServiceInstance().GetCustomerDetailInfo(phone)
+	phone := c.PostForm("cell")
+	code := c.PostForm("code")
+	verify, err := service.CustomerServiceInstance().VerifyCheckCode(code, phone)
+	if err != nil {
+		return nil, err
+	}
+	if !verify {
+		return nil, service.ErrPasswordCheckCodeNotMatch
+	}
 	enbytes, _ := util.AESEncrypt([]byte(phone))
 	host, _ := config.ConfigJson.Get("host").String()
 	c.SetCookie("customer_id", string(enbytes), 3600*24, "/", host, false, false)

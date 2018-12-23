@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=320,maximum-scale=1.3,user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <title>login</title>
+    <script type="text/javascript" src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript">  
+/*-------------------------------------------*/  
+var InterValObj; //timer变量，控制时间  
+var count = 120; //间隔函数，1秒执行  
+var curCount;//当前剩余秒数  
+var code = ""; //验证码  
+var codeLength = 6;//验证码长度  
+function sendMessage() {  
+    curCount = count;  
+    var phone=$("#phone").val();//手机号码
+    
+    if(phone != ""){  
+        //产生验证码  
+        for (var i = 0; i < codeLength; i++) {  
+            code += parseInt(Math.random() * 9).toString();  
+        }  
+        //设置button效果，开始计时  
+        $("#btnSendCode").attr("disabled", "true");  
+        $("#btnSendCode").val(curCount + "s");  
+        InterValObj = window.setInterval(SetRemainTime, 1000); //启动计时器，1秒执行一次  
+    //向后台发送处理数据  
+        $.ajax({  
+            type: "POST", //用POST方式传输  
+            url: '../cu/check_code', //目标地址  
+            data: {"cell": phone},  
+            success: function (data){
+                if (data.code == 0) {
+                    alert("验证码已发送")  
+                }else {
+                    alert(data.msg)
+                }
+                
+            }  
+        });  
+    }else{  
+        alert("手机号码不能为空！");  
+    }  
+}  
+//timer处理函数  
+function SetRemainTime() {  
+    if (curCount == 0) {                  
+        window.clearInterval(InterValObj);//停止计时器  
+        $("#btnSendCode").removeAttr("disabled");//启用按钮  
+        $("#btnSendCode").val("重新发送验证码");  
+        code = ""; //清除验证码。如果不清除，过时间后，输入收到的验证码依然有效      
+    }  
+    else {  
+        curCount--;  
+        $("#btnSendCode").val(curCount + "s");  
+    }  
+}  
+</script>  
+</head>
+<body>
+    <div class="header">登录</div>
+    <form action="" method="" id="loginForm" class="login-card">
+        <div class="form_title">手机号</div>
+        <div class="input_control">
+            
+            <input type="text" name="cell" id="phone" placeholder="请输入您的手机号码"><embed src="./icons/close.svg" /></input>
+        </div>
+        <div class="form_title">验证码</div>
+        <div class="input_control_id">
+            <input type="text" name="code" placeholder="请输入您的验证码"><input class="id_code" id="btnSendCode" type="button" value="发送验证码" onclick="sendMessage()" /></input>
+            
+        </div>
+    </form>
+    <div class="login">
+        <button id="loginbtn">登录</button>
+    </div>
+</body>
+
+<script type="text/javascript">
+    $(function(){
+        //按钮单击时执行
+        $("#loginbtn").click(function(){
+              //Ajax调用处理
+            $.ajax({
+               type: "POST",
+               url: "../cu/login",
+               data:$("#loginForm").serialize(),
+               success: function(data){
+                   window.location.href="customer_home"
+                  }
+            });
+            
+         });
+    });
+</script>
+</html>
